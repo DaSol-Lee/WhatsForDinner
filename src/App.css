@@ -1,0 +1,47 @@
+
+
+.App-header {
+  background-color: #ffffff;
+  flex-direction: column;
+  align-items: center;
+  font-size: 2.5em;
+  color: rgb(56, 52, 52);
+  text-align: center;
+  /*margin: 0px 300px;*/
+  font-family: cursive;
+  border-top:5px solid pink;
+  margin-top: 4px;
+  
+}
+
+.App-header2 {
+  /* min-height: 100vh;*/
+  background-color: #faeace;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /*font-size: calc(10px + 2vmin);*/
+  color:black;
+  font-family: cursive;
+  margin-bottom:  50px;
+  /* margin-left: 300px; */
+  /* margin-right: 300px; */
+  border-bottom:5px solid pink;
+}
+
+.center{
+  display: block;
+  margin-left: 200px ;
+  margin-right: auto;
+  width: 50%;
+}
+
+.background{
+  background-image:url(./images/background.jpg);
+}
+
+.stars{
+  width: 5%;
+  /* margin-right: 50px; */
+  /* margin-top: 5px; */
+}

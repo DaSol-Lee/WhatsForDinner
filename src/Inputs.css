@@ -1,0 +1,97 @@
+.tag {
+    text-align: right; 
+    padding-top: 50px; 
+    padding-right: 100px; 
+    padding-bottom:0px;
+    margin-right: 80px;
+}
+/* Create two equal columns that floats next to each other */
+.column1 {
+    float: left;
+    padding: 10px;
+    height: 400px; /* Should be removed. Only for demonstration */
+    border: 5px solid #B4D3B2; 
+    width:22%; 
+    background-color:#faf0e6; 
+    margin-left: 300px; 
+    /* margin-right:10px; */
+    }
+.column2 {
+        float: left;
+        padding: 10px;
+        height: 400px; /* Should be removed. Only for demonstration */
+        border: 5px solid #B4D3B2; 
+        width:22%; 
+        background-color:#faf0e6; 
+        margin-left: 120px; 
+        margin-right:10px;
+        }
+    
+    /* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+    }
+    
+.form {
+    margin-right: 100px;
+    margin-left: 160px; 
+    margin-right: 1000px; 
+    background-color: #faeace; 
+    border: #f5b74d 2px solid lightgray; 
+    margin-top: 20px;
+}
+
+.file {
+    margin-left: 50px;
+    
+}
+.input {
+    margin-left:400px;
+    margin-bottom: 10px; 
+    background-color: pink;
+    padding:5px;
+}
+.heading2{
+    display: block;
+    font-size: 1.5em;
+    font-weight: bold;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.heading3{
+    display: block;
+    font-size: 1.5em;
+    font-weight: bold;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+}
+.foodImage{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-top: 10px;
+}
+
+.foodText{
+    text-align:center;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+.foodInfo{
+    text-align: center;
+}
+.buttonText{
+    padding-left:10px;
+    line-height: 1.5em;
+}
+
+a{
+    color: #6f4827;
+}
+a:hover{
+    color: #271300;
+}
