@@ -1,3 +1,8 @@
+### Website Walk-though
+<img src="http://g.recordit.co/gMJbJW1ZNu.gif" width=1000><br>
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
